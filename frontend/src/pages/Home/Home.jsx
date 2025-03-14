@@ -4,6 +4,7 @@ import Header from '../../componens/Header/Header'
 import ExploreMenu from '../../componens/ExploreMenu/ExploreMenu'
 import { useState } from 'react'
 import FoodDisplay from '../../componens/FoodDisplay/FoodDisplay'
+import AppDownload from '../../componens/AppDownload/AppDownload'
 
 const Home = () => {
 
@@ -13,7 +14,8 @@ const Home = () => {
     <div>
       <Header/>
       <ExploreMenu category={category} setCategory={setCategory}/>
-        <FoodDisplay category={category}/>
+      <FoodDisplay category={category}/>
+      <AppDownload/>
     </div>
   )
 }
