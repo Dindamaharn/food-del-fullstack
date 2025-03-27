@@ -29,7 +29,7 @@ const StoreContextProvider = (props) => {
             }
         }
         return totalAmount;
-    };
+    }
 
     const contextValue = {
         food_list,
@@ -38,7 +38,7 @@ const StoreContextProvider = (props) => {
         addToCart,
         removeFromCart,
         getTotalCartAmount
-    };
+    }
 
     return (
         <StoreContext.Provider value={contextValue}>
